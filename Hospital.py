@@ -3,11 +3,11 @@ import json
 class Hospital():
     
     def __init__(self, name : str , age, cnic, number, sex : str):
-        self.number = number
-        self.sex = sex
+        self.name = name
         self.age = age
         self.cnic = cnic
-        self.name = name
+        self.number = number
+        self.sex = sex
         self.hospital_name = "HEALTH CARE HOSPITAL"
         self.location = "NOWHERE"
         self.capacity = "BED : 500 "
