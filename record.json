@@ -1,9 +1,59 @@
 {  
-  "doctors" :{ 
-                   "name" :[]
-                   
-                     
+        
+  "hospital" : {
+    
+      "doctors":[
+                 {
+                   "name" : "zain",
+                   "age " : "31",
+                   "cnic" : "100020828092173",
+                   "sex" : "male",
+                   "contact" : "0312232455412",
+                   "speciality" : "Medical specialist",
+                   "duty hours" : 6,
+                   "days" : "monday,friday,sunday"
+                 }
+                 ,
+                 {  
+                    "name" : "ali",
+                    "age " : "28",
+                    "cnic" : "1000208280921345",
+                    "sex" : "male",
+                    "contact" : "0312232455478",
+                    "speciality" : "surgeon",
+                    "duty hours" : 6,
+                    "days" : "monday,thursday,sunday"
+                  }         
+                  ,
+                  {  
+                     "name" : "aina",
+                     "age " : "35",
+                     "cnic" : "100020828095784",
+                     "sex" : "male",
+                     "contact" : "031223257849",
+                     "speciality" : "gynacologist",
+                     "duty hours" : 6,
+                     "days" : "tuesday,thursday"
+                   }                                       
+                   ,
+                   {  
+                      "name" : "rafee",
+                      "age " : "42",
+                      "cnic" : "1000208280987495",
+                      "sex" : "male",
+                      "contact" : "0312232455846",
+                      "speciality" : "orthopedic surgeon",
+                      "duty hours" : 6,
+                      "days" : "Monday,wednesday,thursday"
+                    }            
+                
 
 
-    }
+                ],
+      "patients" : [
+        
+      ]
+ 
+} 
+
 }    

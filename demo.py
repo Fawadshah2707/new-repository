@@ -1,4 +1,6 @@
-from Hospital import Hospital
+from Hospital import Patient
 
-doc = Hospital.add_doctor()
-Hospital.doctor_detail
+
+patient = Patient(name="shah",age=20,sex="male",contact="03126896689",disease="love patient",cnic="1610123600663")
+patient.add_patient()
+print(patient.previous_record)
