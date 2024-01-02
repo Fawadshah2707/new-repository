@@ -55,7 +55,6 @@ class Patient(Hospital):
         super().__init__(self)
         self.disease = disease
         self.previous_record = []
-        self.patient_list = {}
         self.reffered_to_doctor = reffered_doctor   
             
 
@@ -109,7 +108,7 @@ class Appointment(Hospital):
                   Contact Number :{Patient.number}  
                   Disease : {Patient.disease}
                   Reffered To : Dr.{Doctor.name}
-                  Previous Record : {previous_record}
+                  Previous Record : {(Hospital.patient_list[Patient.name])}
                   
 
         
